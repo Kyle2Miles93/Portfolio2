@@ -67,3 +67,19 @@ body, html {
     letter-spacing: 8px;
     text-transform: uppercase;
 }
+
+.ptext .border{
+    background-color: #111;
+    color
+    :#fff;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll;
+    }
+}
